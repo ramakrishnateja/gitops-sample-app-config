@@ -4,6 +4,9 @@ kind: Kustomization
 resources:
 - ../base
 
+commonLabels:
+  app: gitops-sample-app
+
 images:
 - name: gitops-sample-app
   newName: docker.io/ramakrishnateja/gitops-sample-app
