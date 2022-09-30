@@ -5,9 +5,14 @@ resources:
 - ../base
 
 images:
-- name: app
-  newName: docker.io/ramakrishnateja/gitops-sample-app
-  newTag: v1
 - name: gitops-sample-app
   newName: docker.io/ramakrishnateja/gitops-sample-app
   newTag: cc6655ac734d34b2e1f58333cf391a77e2ca0e93
+
+patchesJson6902:
+- path: ingress-patch.yaml
+  target:
+    group: networking.k8s.io
+    kind: Ingress
+    name: ingress
+    version: v1
