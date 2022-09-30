@@ -2,9 +2,12 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-  - ../base
+- ../base
 
 images:
-  - name: app
-    newName: docker.io/ramakrishnateja/gitops-sample-app
-    newTag: v1
+- name: app
+  newName: docker.io/ramakrishnateja/gitops-sample-app
+  newTag: v1
+- name: gitops-sample-app
+  newName: docker.io/ramakrishnateja/gitops-sample-app
+  newTag: cc6655ac734d34b2e1f58333cf391a77e2ca0e93
