@@ -10,7 +10,7 @@ commonLabels:
 images:
 - name: gitops-sample-app
   newName: docker.io/ramakrishnateja/gitops-sample-app
-  newTag: cc6655ac734d34b2e1f58333cf391a77e2ca0e93
+  newTag: 283397821f5f584766655ac8915d6941aac4605b
 
 patchesJson6902:
 - path: ingress-patch.yaml
