@@ -8,6 +8,9 @@ commonLabels:
   app: gitops-sample-app
 
 images:
+- name: gitops-app-sample
+  newName: pulllogictejacontainerregistry.azurecr.io/
+  newTag: c05db23c5c2cfbd332d57f9f66359ddd1092371b
 - name: gitops-sample-app
   newName: docker.io/ramakrishnateja/gitops-sample-app
   newTag: 5d44f786813d0b33bb50c8f873060d0004c7bb1e
