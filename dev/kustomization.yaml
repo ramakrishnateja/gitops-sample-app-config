@@ -20,9 +20,6 @@ images:
 - name: gitops-app-sample
   newName: pulllogictejacontainerregistry.azurecr.io/gitops-app-sample
   newTag: 3829ef2ec3249a37fa82dd1dcccacfa1b3e5197f
-- name: gitops-sample-app
-  newName: docker.io/ramakrishnateja/gitops-sample-app
-  newTag: 5d44f786813d0b33bb50c8f873060d0004c7bb1e
 
 patchesJson6902:
 - path: ingress-patch.yaml
