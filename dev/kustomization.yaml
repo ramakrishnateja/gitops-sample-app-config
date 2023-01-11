@@ -8,18 +8,18 @@ commonLabels:
   app: gitops-sample-app
 
 commonAnnotations:
-  azure-pipelines/planUrl: '#{PlanUrl}#'
-  azure-pipelines/projectId: '#{ProjectId}#'
-  azure-pipelines/hubName: '#{HubName}#'
-  azure-pipelines/planId: '#{PlanId}#'
-  azure-pipelines/jobId: '#{JobId}#'
-  azure-pipelines/timelineId: '#{TimelineId}#'
-  azure-pipelines/taskInstanceId: '#{TaskInstanceId}#'
+  azure-pipelines/hubName: build
+  azure-pipelines/jobId: b13a961e-e955-518a-e7c0-f390d7a9eeea
+  azure-pipelines/planId: 799006ec-eb3f-4619-a856-7a85923bd685
+  azure-pipelines/planUrl: https://chilakaluripet.visualstudio.com/
+  azure-pipelines/projectId: 6646ead6-5b85-4380-b293-95af81a11aa0
+  azure-pipelines/taskInstanceId: 5de78bf4-e6e7-588d-3810-1b4306da139a
+  azure-pipelines/timelineId: 799006ec-eb3f-4619-a856-7a85923bd685
 
 images:
 - name: gitops-app-sample
   newName: pulllogictejacontainerregistry.azurecr.io/gitops-app-sample
-  newTag: 3829ef2ec3249a37fa82dd1dcccacfa1b3e5197f
+  newTag: d8aa6b66e53746812762195e01c578f8363f9d78
 
 patchesJson6902:
 - path: ingress-patch.yaml
