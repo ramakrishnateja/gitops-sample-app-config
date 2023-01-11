@@ -7,6 +7,15 @@ resources:
 commonLabels:
   app: gitops-sample-app
 
+commonAnnotations:
+  azure-pipelines/planUrl: '#{PlanUrl}#'
+  azure-pipelines/projectId: '#{ProjectId}#'
+  azure-pipelines/hubName: '#{HubName}#'
+  azure-pipelines/planId: '#{PlanId}#'
+  azure-pipelines/jobId: '#{JobId}#'
+  azure-pipelines/timelineId: '#{TimelineId}#'
+  azure-pipelines/taskInstanceId: '#{TaskInstanceId}#'
+
 images:
 - name: gitops-sample-app
   newName: docker.io/ramakrishnateja/gitops-sample-app
