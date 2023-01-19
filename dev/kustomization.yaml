@@ -19,7 +19,7 @@ commonAnnotations:
 images:
 - name: gitops-app-sample
   newName: pulllogictejacontainerregistry.azurecr.io/gitops-sample-app
-  newTag: 3582d8796092e2a7a2a800ecddb4bc0e1566b8fb
+  newTag: 27d7d6538825e364730c7c970e8263ed8960dfc8
 
 patchesJson6902:
 - path: ingress-patch.yaml
