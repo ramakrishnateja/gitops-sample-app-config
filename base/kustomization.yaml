@@ -7,7 +7,3 @@ resources:
   - ingress.yaml
   - service.yaml
 
-images:
-  - name: app
-    newName: docker.io/ramakrishnateja/gitops-sample-app
-    newTag: v1
