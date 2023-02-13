@@ -11,6 +11,8 @@ spec:
       labels:
         app: app
     spec:
+      imagePullSecrets:
+        - name: docker-registry-secret
       containers:
       - name: app
         image: gitops-sample-app
