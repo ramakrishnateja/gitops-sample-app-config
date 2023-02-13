@@ -17,7 +17,7 @@ commonAnnotations:
   azure-pipelines/timelineId: 799006ec-eb3f-4619-a856-7a85923bd685
 
 images:
-- name: gitops-app-sample
+- name: gitops-sample-app
   newName: tejagitopssample.azurecr.io/gitops-sample-app
   newTag: 85632b4ca223fd4a1e829eab17316546f9240724
 
